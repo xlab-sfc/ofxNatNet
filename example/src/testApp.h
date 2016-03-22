@@ -1,7 +1,8 @@
 #pragma once
 
 #include "ofMain.h"
-
+#include "ofxOsc.h"
+#include "ofxNatNet.h"
 class testApp : public ofBaseApp {
 public:
 	void setup();
@@ -17,4 +18,9 @@ public:
 	void windowResized(int w, int h);
 	void dragEvent(ofDragInfo dragInfo);
 	void gotMessage(ofMessage msg);
+    
+    
+    ofxOscSender sender;
+    ofxNatNet natnet;
+    ofEasyCam cam;
 };

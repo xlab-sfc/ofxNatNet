@@ -1,9 +1,6 @@
 #include "testApp.h"
 
-#include "ofxNatNet.h"
 
-ofxNatNet natnet;
-ofEasyCam cam;
 
 //--------------------------------------------------------------
 void testApp::setup() {
@@ -11,16 +8,46 @@ void testApp::setup() {
 	ofSetVerticalSync(true);
 	ofBackground(0);
 
-	string interface_name = "192.168.0.1"; // local network device ip address
-	// interface_name = "en0"; // or network interface name
+	string interface_name = "192.168.1.138"; // local network device ip address
+//	 interface_name = "en0"; // or network interface name
 	
-	natnet.setup(interface_name, "192.168.0.1");  // interface name, server ip
+    sender.setup("192.168.1.255", 7777);
+	natnet.setup(interface_name, "192.168.1.131");  // interface name, server ip
 	natnet.setScale(100);
 	natnet.setDuplicatedPointRemovalDistance(20);
 }
 
 //--------------------------------------------------------------
-void testApp::update() { natnet.update(); }
+void testApp::update() {
+    natnet.update();
+    ofxOscBundle bundle;
+    for (int i = 0; i < max(0, (int)natnet.getNumMarkersSet() - 1); i++) {
+        for (int j = 0; j < natnet.getMarkersSetAt(i).size(); j++) {
+            ofxOscMessage b;
+            b.setAddress("/natnet/marker");
+            b.addInt32Arg(j);
+            b.addFloatArg(natnet.getMarkersSetAt(i)[j].x);
+            b.addFloatArg(natnet.getMarkersSetAt(i)[j].y);
+            b.addFloatArg(natnet.getMarkersSetAt(i)[j].z);
+            bundle.addMessage(b);
+        }
+    }
+    
+    for (int i = 0; i < natnet.getNumRigidBody(); i++) {
+        const ofxNatNet::RigidBody &RB = natnet.getRigidBodyAt(i);
+        ofxOscMessage m;
+        m.setAddress("/natnet/rigidbody");
+        m.addInt32Arg(i);
+        for(int j = 0; j < RB.markers.size(); j++){
+            m.addFloatArg(RB.markers[j].x);
+            m.addFloatArg(RB.markers[j].y);
+            m.addFloatArg(RB.markers[j].z);
+        }
+        bundle.addMessage(m);
+    }
+    
+    sender.sendBundle(bundle);
+}
 
 //--------------------------------------------------------------
 void testApp::draw() {

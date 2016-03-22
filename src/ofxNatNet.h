@@ -70,7 +70,7 @@ public:
 		, timeout(0.1)
 	{
 	}
-	~ofxNatNet() { dispose(); }
+	~ofxNatNet() {  }
 
 	void setup(string interface_name, string target_host,
 			   string multicast_group = "239.255.42.99",

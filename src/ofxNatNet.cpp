@@ -469,8 +469,8 @@ struct ofxNatNet::InternalThread : public ofThread
 		
 		if (major == 0 && minor == 0)
 		{
-			ofLogError("ofxNatNet") << "initialize failed";
-			return;
+//			ofLogError("ofxNatNet") << "initialize failed";
+//			return;
 		}
 		
 		if (major > impl_major || minor > impl_minor)
