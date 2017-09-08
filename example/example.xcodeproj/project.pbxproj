@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		29D734F0DDECC8C5978185D7 /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00A1BFCBB38848AD0E0C8539 /* testApp.cpp */; };
 		2EB82731E35103D1E16BAFCF /* ofxNatNet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F3A36FC9F5D38A7D10DEB9F /* ofxNatNet.cpp */; };
+<<<<<<< HEAD
 		C849A1AB1C73B33B00B46E60 /* ofxOscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C849A1841C73B33B00B46E60 /* ofxOscBundle.cpp */; };
 		C849A1AC1C73B33B00B46E60 /* ofxOscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C849A1861C73B33B00B46E60 /* ofxOscMessage.cpp */; };
 		C849A1AD1C73B33B00B46E60 /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C849A1881C73B33B00B46E60 /* ofxOscParameterSync.cpp */; };
@@ -21,6 +22,8 @@
 		C849A1B41C73B33B00B46E60 /* OscPrintReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C849A1A51C73B33B00B46E60 /* OscPrintReceivedElements.cpp */; };
 		C849A1B51C73B33B00B46E60 /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C849A1A71C73B33B00B46E60 /* OscReceivedElements.cpp */; };
 		C849A1B61C73B33B00B46E60 /* OscTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C849A1A91C73B33B00B46E60 /* OscTypes.cpp */; };
+=======
+>>>>>>> 7cfd42129ca53636f320995078ef7b1d9e0109fb
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -59,6 +62,7 @@
 		1F3A36FC9F5D38A7D10DEB9F /* ofxNatNet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxNatNet.cpp; path = ../../../addons/ofxNatNet/src/ofxNatNet.cpp; sourceTree = SOURCE_ROOT; };
 		2D129AB0F7D46B8DFCEADEDB /* testApp.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = testApp.h; path = src/testApp.h; sourceTree = SOURCE_ROOT; };
 		3ED89351B05F58561F63B458 /* ofxNatNet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxNatNet.h; path = ../../../addons/ofxNatNet/src/ofxNatNet.h; sourceTree = SOURCE_ROOT; };
+<<<<<<< HEAD
 		C849A1821C73B33B00B46E60 /* ofxOsc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxOsc.h; sourceTree = "<group>"; };
 		C849A1831C73B33B00B46E60 /* ofxOscArg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxOscArg.h; sourceTree = "<group>"; };
 		C849A1841C73B33B00B46E60 /* ofxOscBundle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ofxOscBundle.cpp; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 		C849A1A81C73B33B00B46E60 /* OscReceivedElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OscReceivedElements.h; sourceTree = "<group>"; };
 		C849A1A91C73B33B00B46E60 /* OscTypes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OscTypes.cpp; sourceTree = "<group>"; };
 		C849A1AA1C73B33B00B46E60 /* OscTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OscTypes.h; sourceTree = "<group>"; };
+=======
+>>>>>>> 7cfd42129ca53636f320995078ef7b1d9e0109fb
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E4B69B5B0A3A1756003C02F2 /* exampleDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exampleDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
@@ -116,6 +122,7 @@
 			children = (
 				1F3A36FC9F5D38A7D10DEB9F /* ofxNatNet.cpp */,
 				3ED89351B05F58561F63B458 /* ofxNatNet.h */,
+<<<<<<< HEAD
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -133,17 +140,25 @@
 				1326C512D5EF8A07E338BC12 /* src */,
 			);
 			name = ofxNatNet;
+=======
+			);
+			name = src;
+>>>>>>> 7cfd42129ca53636f320995078ef7b1d9e0109fb
 			sourceTree = "<group>";
 		};
-		BB4B014C10F69532006C3DED /* addons */ = {
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				9BAC8758F307EC8672EA99CE /* ofxNatNet */,
 				C849A1801C73B33B00B46E60 /* ofxOsc */,
+=======
+>>>>>>> 7cfd42129ca53636f320995078ef7b1d9e0109fb
 			);
-			name = addons;
+			name = local_addons;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		C849A1801C73B33B00B46E60 /* ofxOsc */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +186,22 @@
 			);
 			name = src;
 			path = ../../ofxOsc/src;
+=======
+		9BAC8758F307EC8672EA99CE /* ofxNatNet */ = {
+			isa = PBXGroup;
+			children = (
+				1326C512D5EF8A07E338BC12 /* src */,
+			);
+			name = ofxNatNet;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				9BAC8758F307EC8672EA99CE /* ofxNatNet */,
+			);
+			name = addons;
+>>>>>>> 7cfd42129ca53636f320995078ef7b1d9e0109fb
 			sourceTree = "<group>";
 		};
 		C849A18E1C73B33B00B46E60 /* libs */ = {
@@ -182,6 +213,7 @@
 			path = ../../ofxOsc/libs;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		C849A18F1C73B33B00B46E60 /* oscpack */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +281,8 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> 7cfd42129ca53636f320995078ef7b1d9e0109fb
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
@@ -373,7 +407,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
+<<<<<<< HEAD
 			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy bin/data into App/Resources\nrsync -avz --exclude='.DS_Store' \"${SRCROOT}/bin/data/\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/data/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+=======
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+>>>>>>> 7cfd42129ca53636f320995078ef7b1d9e0109fb
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -387,6 +425,7 @@
 				C849A1B21C73B33B00B46E60 /* UdpSocket.cpp in Sources */,
 				C849A1AE1C73B33B00B46E60 /* ofxOscReceiver.cpp in Sources */,
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+<<<<<<< HEAD
 				C849A1AB1C73B33B00B46E60 /* ofxOscBundle.cpp in Sources */,
 				C849A1AF1C73B33B00B46E60 /* ofxOscSender.cpp in Sources */,
 				C849A1B41C73B33B00B46E60 /* OscPrintReceivedElements.cpp in Sources */,
@@ -396,6 +435,9 @@
 				C849A1B51C73B33B00B46E60 /* OscReceivedElements.cpp in Sources */,
 				C849A1B61C73B33B00B46E60 /* OscTypes.cpp in Sources */,
 				C849A1B01C73B33B00B46E60 /* IpEndpointName.cpp in Sources */,
+=======
+				29D734F0DDECC8C5978185D7 /* testApp.cpp in Sources */,
+>>>>>>> 7cfd42129ca53636f320995078ef7b1d9e0109fb
 				2EB82731E35103D1E16BAFCF /* ofxNatNet.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,8 +539,11 @@
 					"$(OF_CORE_HEADERS)",
 					src,
 					../../../addons/ofxNatNet/src,
+<<<<<<< HEAD
 					../../../addons/ofxOsc/libs/oscpack/src,
 					"$(OSC_ADDON)",
+=======
+>>>>>>> 7cfd42129ca53636f320995078ef7b1d9e0109fb
 				);
 				ICON = "$(ICON_NAME_DEBUG)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
@@ -506,7 +551,10 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+<<<<<<< HEAD
 				USER_HEADER_SEARCH_PATHS = "";
+=======
+>>>>>>> 7cfd42129ca53636f320995078ef7b1d9e0109fb
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -528,8 +576,11 @@
 					"$(OF_CORE_HEADERS)",
 					src,
 					../../../addons/ofxNatNet/src,
+<<<<<<< HEAD
 					../../../addons/ofxOsc/libs/oscpack/src,
 					"$(OSC_ADDON)",
+=======
+>>>>>>> 7cfd42129ca53636f320995078ef7b1d9e0109fb
 				);
 				ICON = "$(ICON_NAME_RELEASE)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
@@ -537,7 +588,10 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+<<<<<<< HEAD
 				USER_HEADER_SEARCH_PATHS = "";
+=======
+>>>>>>> 7cfd42129ca53636f320995078ef7b1d9e0109fb
 				WRAPPER_EXTENSION = app;
 				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
 			};
