@@ -8,11 +8,12 @@ void testApp::setup() {
 	ofSetVerticalSync(true);
 	ofBackground(0);
 
-	string interface_name = "192.168.1.138"; // local network device ip address
+    //me
+	string interface_name = "192.168.11.43"; // local network device ip address
 //	 interface_name = "en0"; // or network interface name
 	
-    sender.setup("192.168.1.255", 7777);
-	natnet.setup(interface_name, "192.168.1.131");  // interface name, server ip
+    sender.setup("192.168.11.49", 3883);
+	natnet.setup(interface_name, "192.168.11.49");  // interface name, server ip
 	natnet.setScale(100);
 	natnet.setDuplicatedPointRemovalDistance(20);
 }
